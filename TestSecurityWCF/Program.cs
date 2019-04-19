@@ -11,8 +11,8 @@ namespace TestSecurityWCF
             {
 
                 /*Add Credentials*/
-                //client.ClientCredentials.UserName.UserName = "jvargas";
-                //client.ClientCredentials.UserName.Password = "mypassword";
+                client.ClientCredentials.UserName.UserName = "jvargas";
+                client.ClientCredentials.UserName.Password = "mypassword";
 
                 var countries = client.GetListCountries(null);
 
